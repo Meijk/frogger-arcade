@@ -1,0 +1,70 @@
+body {
+    text-align: center;
+    font: bold 2em 'Open Sans';
+}
+
+.score-board {
+	display: flex;
+	height: 60px;
+}
+
+.score-board img {
+	height: 50px;
+}
+
+.golden-boy, .bugs {
+	display: flex;
+	flex-wrap: nowrap;
+	width: 50%;
+}
+
+.golden-boy, .bugs li {
+	list-style-type: none;
+}
+
+.bugs {
+	flex-direction: row-reverse;
+}
+
+.golden-boy {
+	flex-direction: row;
+}
+
+.counter {
+	align-self: center;
+	padding-right: 1em;
+	padding-left: 1em;
+}
+
+.win-modal {
+	display: none;
+	position: absolute;
+	top: 25vh;
+	left: 0;
+	z-index: 1;
+	height: 50vh;
+	width: 100vw;
+	background-color: rgba(255, 255, 255, 0.95);
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.win-modal img {
+	height: 200px;
+}
+
+.open {
+	display: flex;
+}
+
+.modal-close {
+	text-transform: uppercase;
+	background-color: #fff;
+	font: 0.7em 'Open Sans';
+	cursor: pointer;
+}
+
+.modal-close::before {
+
+}
