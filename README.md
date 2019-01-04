@@ -10,6 +10,13 @@ The hero's task is to vertically cross a road which is populated by a species of
 
 The 4 arrow keys move the hero in the associated direction. It will always jump to the next tile on a 5x6 board.
 
+## How to run the application
+
+To try out frogger-arcade on your local machine...
+
+1. Download and unpack this repository: https://github.com/Meijk/frogger-arcade/archive/master.zip
+2. Run index.html
+
 ## Resources
 
 https://www.html5canvastutorials.com/
