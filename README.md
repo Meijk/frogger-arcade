@@ -15,3 +15,4 @@ The 4 arrow keys move the hero in the associated direction. It will always jump 
 https://www.html5canvastutorials.com/
 https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Collision_detection
 https://stackoverflow.com/questions/2440377/javascript-collision-detection
+http://blog.sklambert.com/html5-canvas-game-2d-collision-detection#d-collision-detection
